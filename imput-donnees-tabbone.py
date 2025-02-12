@@ -1,39 +1,55 @@
-import pandas as pd
-import numpy as np
-from pathlib import Path
+import pandas as pd  # Pour la manipulation des données tabulaires
+import numpy as np   # Pour les opérations numériques
+from pathlib import Path  # Pour gérer les chemins de fichiers de façon portable
 
 def main():
-    # Utilisation de pathlib
+    """
+    Fonction principale qui nettoie et complète les données manquantes d'un fichier Excel.
+    Le script remplace les valeurs manquantes par la médiane pour les données numériques
+    et par le mode (valeur la plus fréquente) pour les données catégorielles.
+    """
+    # Configuration des chemins de fichiers
     base_dir = Path('C:/Users/sofiane.mebchour/Downloads/Tabbone/Données nettoyées')
-    cleaned_data_path = base_dir / 'Donnees-nettoyees.xlsx'
-    output_path = base_dir / 'Donnees-nettoyees-imputed.xlsx'
+    cleaned_data_path = base_dir / 'Donnees-nettoyees.xlsx'  # Fichier d'entrée
+    output_path = base_dir / 'Donnees-nettoyees-imputed.xlsx'  # Fichier de sortie
     
-    # Charger les données
+    # Étape 1 : Chargement du fichier Excel dans un DataFrame pandas
+    print("Chargement des données...")
     cleaned_data = pd.read_excel(cleaned_data_path)
     
-    # Remplacer les valeurs '?' par NaN pour une gestion uniforme des valeurs manquantes
+    # Étape 2 : Remplacement des '?' par NaN (Not a Number)
+    # Cela permet d'uniformiser la représentation des valeurs manquantes
     cleaned_data.replace('?', np.nan, inplace=True)
     
-    # Déterminer les types de chaque colonne pour choisir la méthode d'imputation appropriée
+    # Étape 3 : Analyse des types de données de chaque colonne
+    # Cela nous permet de choisir la bonne méthode d'imputation
     column_types = cleaned_data.dtypes
     
-    # Imputation des valeurs manquantes
+    # Étape 4 : Traitement des valeurs manquantes colonne par colonne
+    print("Imputation des valeurs manquantes...")
     for column in cleaned_data.columns:
-        if column_types[column] in ['int64', 'float64']:  # Pour les colonnes numériques
-            # Imputer avec la médiane
-            cleaned_data[column].fillna(cleaned_data[column].median(), inplace=True)
-        elif column_types[column] == 'object':  # Pour les colonnes catégorielles
-            # Imputer avec le mode
-            cleaned_data[column].fillna(cleaned_data[column].mode()[0], inplace=True)
+        # Pour les colonnes numériques (nombres entiers ou décimaux)
+        if column_types[column] in ['int64', 'float64']:
+            median_value = cleaned_data[column].median()
+            cleaned_data[column].fillna(median_value, inplace=True)
+            print(f"Colonne {column}: Remplacement par la médiane ({median_value})")
+            
+        # Pour les colonnes textuelles (catégories, texte, etc.)
+        elif column_types[column] == 'object':
+            mode_value = cleaned_data[column].mode()[0]
+            cleaned_data[column].fillna(mode_value, inplace=True)
+            print(f"Colonne {column}: Remplacement par le mode ({mode_value})")
     
-    # Vérifier et afficher le nombre de valeurs manquantes pour chaque colonne après l'imputation
+    # Étape 5 : Vérification finale des valeurs manquantes
     missing_values_after = cleaned_data.isnull().sum()
-    print("Nombre de valeurs manquantes par colonne après imputation:")
+    print("\nRésultat - Nombre de valeurs manquantes par colonne:")
     print(missing_values_after)
 
-    # Optionnel : Sauvegarder le DataFrame nettoyé
-    # Correction du chemin de sortie également
+    # Étape 6 : Sauvegarde des données nettoyées
+    print(f"\nSauvegarde du fichier nettoyé dans: {output_path}")
     cleaned_data.to_excel(output_path, index=False)
+    print("Traitement terminé avec succès!")
 
+# Point d'entrée du script
 if __name__ == "__main__":
     main()
