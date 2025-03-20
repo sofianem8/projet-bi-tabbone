@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>donnees-defi-egc-utf8.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ADR_SECTEUR" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="ANNEEDEPLANTATION" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="ANNEEREALISATIONDIAGNOSTIC" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="ANNEETRAVAUXPRECONISESDIAG" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="CODE" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="CODE_PARENT" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="CODE_PARENT_DESC" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="DIAMETREARBREAUNMETRE" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="ESPECE" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="FREQUENTATIONCIBLE" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="GENRE_BOTA" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="IDENTIFIANTPLU" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="INTITULEPROTECTIONPLU" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="NOTEDIAGNOSTIC" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="PRIORITEDERENOUVELLEMENT" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="RAISONDEPLANTATION" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="REMARQUES" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="SOUS_CATEGORIE" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="SOUS_CATEGORIE_DESC" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="STADEDEDEVELOPPEMENT" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="STADEDEVELOPPEMENTDIAG" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="TRAITEMENTCHENILLES" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="TRAVAUXPRECONISESDIAG" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="TROTTOIR" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="TYPEIMPLANTATIONPLU" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="VARIETE" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="VIGUEUR" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="coord_x" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="coord_y" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="DEFAUT" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="Collet" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="Houppier" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="Racine" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+            <Field name="Tronc" size="254" source="File: C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\donnees-defi-egc-utf8.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="246" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"ADR_SECTEUR","ANNEEDEPLANTATION","ANNEEREALISATIONDIAGNOSTIC","ANNEETRAVAUXPRECONISESDIAG","DIAMETREARBREAUNMETRE","ESPECE","FREQUENTATIONCIBLE","GENRE_BOTA","IDENTIFIANTPLU","INTITULEPROTECTIONPLU","NOTEDIAGNOSTIC","PRIORITEDERENOUVELLEMENT","RAISONDEPLANTATION","REMARQUES","SOUS_CATEGORIE_DESC","STADEDEDEVELOPPEMENT","STADEDEVELOPPEMENTDIAG","TRAITEMENTCHENILLES","TRAVAUXPRECONISESDIAG","TROTTOIR","TYPEIMPLANTATIONPLU","VARIETE","VIGUEUR","DEFAUT","Collet","Houppier","Racine","Tronc"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\gabin\AppData\Local\Temp\Alteryx\Engine_24464_39feb5ffb4434e9ba45bbb6e805fce53_\Engine_24464_13622283473e428fb7afd17ab753234b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CODE" selected="False" />
+            <SelectField field="CODE_PARENT" selected="False" />
+            <SelectField field="CODE_PARENT_DESC" selected="False" />
+            <SelectField field="SOUS_CATEGORIE" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="342" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\gabin\Desktop\La vie sans clé\M2\Tabbone projet\Donnees-nettoyees-gab.xlsx|||Feuille1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Donnees-nettoyees-gab.xlsx
+Query=Feuille1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Donnees-nettoyees-imputed.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ADR_SECTEUR" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ANNEEDEPLANTATION" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ANNEEREALISATIONDIAGNOSTIC" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="CODE_PARENT" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="CODE_PARENT_DESC" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="DIAMETREARBREAUNMETRE" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="ESPECE" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FREQUENTATIONCIBLE" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="GENRE_BOTA" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="NOTEDIAGNOSTIC" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="PRIORITEDERENOUVELLEMENT" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SOUS_CATEGORIE" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SOUS_CATEGORIE_DESC" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="STADEDEDEVELOPPEMENT" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="STADEDEVELOPPEMENTDIAG" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="TROTTOIR" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="VIGUEUR" size="255" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DEFAUT" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Collet" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Houppier" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Racine" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Tronc" source="File: C:\Users\sofiane.mebchour\Downloads\Tabbone\Données nettoyées\Donnees-nettoyees-imputed.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SOFIAN~1.MEB\AppData\Local\Temp\Alteryx\Engine_21464_c09b1c56afe444f8964096dc1b1e9207_\Engine_21464_285f9b9f670c4d5abad45a89250ceab6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output26" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="4" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>wf-nettoyage-donnees</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="81b86dd6-e9b0-44e9-b868-35fa1fba93f0" />
+      <Telemetry>
+        <PreviousWorkflowId value="b9d205ca-ee03-400f-8357-c3f859ef0c62" />
+        <OriginWorkflowId value="b9d205ca-ee03-400f-8357-c3f859ef0c62" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
